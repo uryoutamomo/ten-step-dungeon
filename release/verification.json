@@ -1,0 +1,17 @@
+{
+  "tests_passed": 20,
+  "intentional_faults_caught": 6,
+  "seeded_default_wins": 100,
+  "seeded_default_adventures": 100,
+  "cozy_smoke_adventures": 20,
+  "human_balance_study": false,
+  "browser_click_playthrough": false,
+  "mobile_device_tested": false,
+  "lint_passed": true,
+  "typecheck_passed": true,
+  "build_passed": true,
+  "offline_external_assets": 0,
+  "html_bytes": 3748203,
+  "zip_bytes": 2705544,
+  "html_sha256": "d891d3d769a6dcc9966f9a440b6209a331f37643b81371b92dd544970734dbf3"
+}
