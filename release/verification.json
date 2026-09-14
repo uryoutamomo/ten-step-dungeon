@@ -6,12 +6,15 @@
   "cozy_smoke_adventures": 20,
   "human_balance_study": false,
   "browser_click_playthrough": false,
+  "responsive_browser_checks": ["375x553", "1365x650", "1365x768"],
+  "command_visible_without_scroll": true,
+  "audio_toggle_browser_checked": true,
   "mobile_device_tested": false,
   "lint_passed": true,
   "typecheck_passed": true,
   "build_passed": true,
   "offline_external_assets": 0,
-  "html_bytes": 3748203,
-  "zip_bytes": 2705544,
-  "html_sha256": "d891d3d769a6dcc9966f9a440b6209a331f37643b81371b92dd544970734dbf3"
+  "html_bytes": 3752916,
+  "zip_bytes": 2703839,
+  "html_sha256": "5d0cd736d83917eac30ffe500041d049b8f70e4f5e9ae822de69e8f5605afbe7"
 }
