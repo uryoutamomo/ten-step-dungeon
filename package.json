@@ -11,7 +11,8 @@
     "start": "vinext start",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "test": "node --experimental-strip-types --test tests/game.test.mjs",
-    "export:offline": "node scripts/export-offline.mjs"
+    "export:offline": "node scripts/export-offline.mjs",
+    "export:pages": "node scripts/export-offline.mjs --pages"
   },
   "dependencies": {
     "next": "16.2.6",

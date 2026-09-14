@@ -6,6 +6,8 @@
 
 ## 遊ぶ
 
+GitHub Pages版の公開用ファイルを `docs/` に用意しています。公開先は `https://uryoutamomo.github.io/ten-step-dungeon/` です。公開設定の反映後は、ログインやダウンロードなしで遊べます。
+
 [配布用ZIPをダウンロード](release/10歩ダンジョン-配布用.zip?raw=true)して解凍し、**「10歩ダンジョン.html」をブラウザーで開いてください**。インストールやインターネット接続は不要です。
 
 [HTMLを直接ダウンロード](release/10歩ダンジョン.html?raw=true)することもできます。ゲーム・イラストはHTML一つに含まれています。GitHubのファイル表示画面ではゲームは動作しません。
@@ -46,9 +48,12 @@ npm run lint
 npx tsc --noEmit
 npm run build
 npm run export:offline
+npm run export:pages
 ```
 
 `export:offline` は配布用HTMLと説明書を `release/` に生成します。ZIPはこの2ファイルをまとめたものです。
+
+`export:pages` は現在のソースから `docs/index.html`、共有用画像、`.nojekyll` を生成します。GitHub Pagesでは公開対象のブランチの `/docs` を配信元にします。途中保存はブラウザーと公開先ごとに分かれるため、Sites版・オフライン版の続きは自動移行されません。
 
 | ファイル | 内容 |
 | --- | --- |
@@ -67,6 +72,6 @@ npm run export:offline
 
 ## 公開形態
 
-このリポジトリにはソースと配布用ファイルを置いています。GitHub Pagesは未設定です。開発用ページのOGメタデータはローカルプレビュー用のoriginを使っており、Webサイトとして配信する際は公開先に合わせて変更してください。
+このリポジトリにはソースと配布用ファイルを置いています。GitHub Pagesへの配信内容は `docs/` の3ファイルです。公開用HTMLのOGメタデータと共有画像URLはGitHub Pagesの公開先に合わせて生成されます。Sites版の公開設定は別管理です。
 
 制作: おと（Codex）
